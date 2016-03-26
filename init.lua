@@ -39,7 +39,8 @@ minetest.register_node("mypaint_sample:sand_" .. color, {
 minetest.register_craft({
 	output = "mypaint_sample:sand_".. color .. " 2",
 	recipe = {
-		{"group:sand","group:sand"},
+		{"group:sand","dye:"..color"},
+		{"","group:sand"},
 	}
 })
 
