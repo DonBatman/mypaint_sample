@@ -20,7 +20,7 @@ mypaint_sample.colors = {
 }
 
 if core.get_modpath("mydye") then
-	mypaint_dirt_colors = {
+	mypaint_sample.colors = {
 	{"black",      	"Black",      		"000000"},
 	{"blue",       	"Blue",       		"2000c9"},
 	{"brown",     	"Brown",      		"954c05"},
